@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="tpgwt">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='tpgwt.tpgwt' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/tpgwt/greet" class="tpgwt.server.GreetingServiceImpl" />
+
+</module>
